@@ -27,3 +27,23 @@ function fruitProcessor(apples, oranges) {
 
 const appleJuice = fruitProcessor(2, 0);
 console.log(appleJuice);
+
+// Function declaration and expressions
+
+// normal function declaration
+function calcAge(birtYear) {
+  const age = 2022 - birtYear;
+  return age;
+}
+
+const yourAge = calcAge(1994);
+console.log(yourAge);
+
+// annonymus function declaration
+
+const calc_age = function (b_year) {
+  const c_age = 2022 - b_year;
+  return c_age;
+};
+
+console.log(calc_age(1994));
