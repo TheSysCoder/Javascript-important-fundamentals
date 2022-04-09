@@ -30,17 +30,3 @@ const sum = (a, b) => {
 console.log(sum(34, 67));
 
 // practice all function in one
-
-function Person() {
-  this.name = "Jake";
-  this.job = "DevOps";
-
-  console.log(this.name);
-  this.say_welcome = function () {
-    console.log(`Welcome ${this.name}`);
-  };
-  say_welcome();
-}
-
-const x = new Person();
-x.say_welcome;
