@@ -17,7 +17,7 @@ const loopExample = (range) => {
 
 loopExample(2);
 
-// iterate array and objects using loops
+// iterate array using loops
 console.log("==========================================");
 const myArr = ["John", "Mark", "Tom", "Tony"];
 const loopArray = (array) => {
